@@ -52,7 +52,7 @@ body {
   display: none;
   width: 800px;
   height: 320px;
-  background-color: rgba(221, 240, 255, .75);
+  background-color: rgba(0, 0, 0, .75);
   padding:0 8px;
   /* position: fixed; */
   right: 0;
@@ -64,7 +64,7 @@ body {
   .site-info {
     width: 85%;
     height: 280px;
-    background-color: rgba(221, 240, 255, .75);
+    background-color: rgba(0, 0, 0, .75);
     padding:8px;
     /* position: fixed; */
     right: 0;
@@ -331,7 +331,7 @@ img.original-img-style {
 }
 
 .home-item {
-  background-color: rgba(221, 240, 255, .75);
+  background-color: rgba(0, 0, 0, .75);
   padding:4px;
   border: 2px solid var(--fish-orange);
   text-align: center;
