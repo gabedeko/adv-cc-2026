@@ -1,0 +1,76 @@
+.header {
+  height: 45vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.header-tint {
+  background-color: rgba(221, 240, 255, .25);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.w1-header {
+    background-image: url("../assets/fish_0.jpg");
+}
+
+.w1-5-header {
+  background-image: url("https://cdn.glitch.global/458f0fda-092e-4b38-b618-cc2d92eb0cc0/leaves_232.jpg?v=1693698055534");
+}
+
+.w2-header {
+  background-image: url("../assets/fish_2.jpg");
+}
+
+.w3-header {
+  background-image: url("../assets/fish_3.jpg");
+}
+
+.w4-header {
+  background-image: url("../assets/fish_4.jpg");
+}
+
+.w5-header {
+  background-image: url("../assets/fish_5.jpg");
+}
+
+.w6-header {
+  background-image: url("../assets/fish_6.jpg");
+}
+
+.w7-header {
+  background-image: url("../assets/fish_7.jpg");
+}
+
+.w8-header {
+  background-image: url("../assets/fish_8.jpg");
+}
+
+.w9-header {
+  background-image: url("../assets/fish_9.jpg");
+}
+
+.w10-header {
+  background-image: url("../assets/fish_10.jpg");
+}
+.w11-header {
+  background-image: url("../assets/fish_11.jpg");
+}
+.w12-header {
+  background-image: url("../assets/fish_12.jpg");
+}
+.w13-header {
+  background-image: url("../assets/fish_13.jpg");
+}
+.w14-header {
+  background-image: url("../assets/fish_5.jpg");
+}
+.w15-header {
+  background-image: url("../assets/fish_5.jpg");
+}
+.w16-header {
+  background-image: url("../assets/fish_5.jpg");
+}

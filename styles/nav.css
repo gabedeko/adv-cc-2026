@@ -1,0 +1,146 @@
+.nav {
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .75);
+  border: 2px solid var(--fish-orange);
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+.nav-link a,
+.nav-link a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-header {
+  /* text-decoration: none; */
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.week-list {
+  font-weight: 500;
+}
+
+.week-list-link {
+  font-size: 20px;
+}
+
+.nav-btm {
+  border-top: 4px solid #F6FEDB;
+  padding-top: 8px;
+}
+/* Mobile Menu */
+@media (max-width: 991.98px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+
+
+/* .mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+} */
+
+.mobile-nav {
+  z-index: 9999;
+  overflow: hidden;
+  background-color: rgba(221, 240, 255, .75);
+  /* position: relative; */
+  width: fit-content;
+  position: fixed;
+  right: 0;
+}
+
+.mobile-nav.open {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.nav-icon {
+  align-self: flex-end;
+}
+
+.nav-icon::before {
+  cursor: pointer;
+  content: url("../assets/open_nav.svg");
+  /* Optional: Adjust size and display properties */
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.nav-icon.open::before {
+  content: url("../assets/close_nav.svg");
+}
+
+.nav-links {
+  display: none;
+}
+.nav-links.open {
+  display: block;
+}
+.nav-links a {
+  display: block;
+}
+
+.mobile-nav-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.mobile-nav-item {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0 8px;
+  display: inline!important;
+}
